@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html>
   <head>
+  <style>
+h1 {
+  color: blue;
+}
+p {
+  color: green;
+}
+   </style>
+    <script>
+    // Function to change webpage background color
+    function changeBodyBg(color){
+        document.body.style.background = color;
+    }
+</script>
   <meta charset ="utf-8">
     <title>Soccer Stadium</title>
   </head>
   <body>
+     <div>
+        <label>Change Webpage Background To:</label>
+        <button type="button" onclick="changeBodyBg('black');">black</button>
+        <button type="button" onclick="changeBodyBg('yellow');">yellow</button>
+        <button type="button" onclick="changeBodyBg('orange');">Orange</button>
+        <button type="button" onclick="changeBodyBg('white');">Default</button>
+    </div>
   <h1>Soccer Stadium PLEx</h1>
-  <p>Our Stadium is inspired by our intrests</p>
+  <p>Our Stadium is inspired by our intrests aka Soccer and Minecraft</p>
